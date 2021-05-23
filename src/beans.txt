@@ -1,0 +1,12 @@
+beans
+    bean id=person class=com.experiment1.question2.bean.Person
+        property name=name value=田七
+        property name=age value=29
+    /bean
+
+    bean id=family class=com.experiment1.question2.bean.Family
+        property name=name value=开心家庭
+        property name=count value=10
+        property name=master bean=person
+    /bean
+/beans
